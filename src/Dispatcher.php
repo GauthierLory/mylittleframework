@@ -2,7 +2,6 @@
 
 namespace Framework;
 
-use ReflectionException;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
