@@ -6,8 +6,8 @@ We use a front controller which is a single PHP file through which all requests 
 - Then the Twig component will take care of managing the views in the response to the client that will be prepared in the Service Container.
 
 ## Installation
-```
-    $ git clone https://github.com/gauthierLory/mylittleframework
+```bash
+git clone https://github.com/gauthierLory/mylittleframework
 ```
 then launch to install depedencies
 ```bash
@@ -15,13 +15,13 @@ composer install
 ```
 ### Configure .env
 Clone the .env.example and fill the path of files
-```dotenv
+```bash
 CONTAINER_CONFIG_FILE=/config/container.php
 ROUTER_CONFIG_FILE=/config/routes.yaml
 TEMPLATES_DIR=/templates
 ```
 ### command to launch local server
-```
+```php
 php -S localhost:8000 -t public/
 ```
 
